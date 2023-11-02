@@ -2,6 +2,7 @@ package com.example.tyc;
 
 import com.example.tyc.pojo.QYSource;
 import com.example.tyc.sercive.SourceService;
+import com.example.tyc.utils.MailUtils;
 import com.example.tyc.utils.Other;
 import jakarta.annotation.Resource;
 import org.jsoup.Jsoup;
@@ -29,6 +30,8 @@ import java.util.regex.Pattern;
 public class GetDataByQCC {
     @Resource
     SourceService service;
+    @Resource
+    MailUtils mailUtils;
     @Test
     void te() {
 
@@ -146,6 +149,7 @@ public class GetDataByQCC {
 
                 //被限制了，登录再继续    有历史执行数量，但是日期取不到
                 if ((!lsbzxr.equals("0")) && ("".equals(zjrq))) {
+                    mailUtils.sendErrMail("获取企业异常，请前往浏览器登录");
                     Scanner scan = new Scanner(System.in);
                     System.out.print("前往浏览器登录后，在此输入任意字符回车键继续爬取：");
                     if (scan.hasNext()) {

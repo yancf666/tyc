@@ -4,3 +4,19 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: ycf666
+
+  mail:
+    #服务器
+    host: smtp.163.com
+    username: yanchengfei666@163.com
+    password: JJRJEQRHABDRNERB  # 这里QQ邮箱开通POP3/SMTP提供的授权码，如果邮箱服务商没有授权码，可以使用密码代替
+    #端口号465或587
+    port: 25
+    properties:
+      mail:
+        smtp:
+          auth: true
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+          starttls:
+            enable: true
