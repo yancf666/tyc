@@ -5,6 +5,8 @@ import jakarta.annotation.Resource;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.util.Scanner;
+
 /**
  * @title test
  * @Author ycf
@@ -19,6 +21,11 @@ public class test {
 
     @Test
     void te() {
-        mailUtils.sendErrMail("失败");
+        Scanner scan = new Scanner(System.in);
+        System.out.print("前往浏览器登录后，在此输入任意字符回车键继续爬取：");
+        if (scan.hasNext()) {
+            System.out.println("继续");
+        }
+        scan.close();
     }
 }

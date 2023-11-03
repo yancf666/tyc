@@ -49,7 +49,7 @@ public class MailUtils {
         String title = "异常提醒";
         try {
             helper.setFrom("yanchengfei666@163.com");
-            helper.setTo("619748460@qq.com");
+            helper.setTo("cfyan@ipi-tech.com");
             //helper.setBcc("密送人");
             helper.setSubject(title);
             helper.setSentDate(new Date());

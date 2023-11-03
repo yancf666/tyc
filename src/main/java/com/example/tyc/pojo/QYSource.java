@@ -18,7 +18,7 @@ public class QYSource {
     @ExcelProperty(value = "企业名称", index = 2)
     private String qymc;
     @ExcelProperty(value = "历史限制高消费次数", index = 3)
-    private String lsxzbgxf;
+    private String lsxzgxf;
     @ExcelProperty(value = "历史失信被执行人次数", index = 4)
     private String lssxbzxr;
     @ExcelProperty(value = "历史被执行人次数", index = 5)

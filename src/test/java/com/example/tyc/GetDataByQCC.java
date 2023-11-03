@@ -28,56 +28,65 @@ import java.util.regex.Pattern;
  */
 @SpringBootTest
 public class GetDataByQCC {
+
     @Resource
     SourceService service;
     @Resource
     MailUtils mailUtils;
+
     @Test
-    void te() {
+    void te() throws InterruptedException {
 
         //搜索信息，必须大于四个字
-        String key = "南昌 信息";
+        String key = "深圳 信息";
 
         int j = 0;
 
         // 设置ChromeDriver的路径，根据你的实际路径进行设置
-        System.setProperty("webdriver.chrome.driver", "D://desktop/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "D://chromedriver.exe");
 
         ChromeOptions chromeOptions = new ChromeOptions();
-//        chromeOptions.setExperimentalOption("debuggerAddress", "127.0.0.1:8998");
+//        chromeOptions.setExperimentalOption("debuggerAddress", "127.0.0.1:9222");
+
 
         // 创建ChromeDriver实例
         WebDriver driver = new ChromeDriver(chromeOptions);
 
         driver.get("https://www.tianyancha.com");
 
-        try {
-            for (int i = 0; i < 60; i++) {
+        for (int i = 0; i < 30; i++) {
 
-                Thread.sleep( 1000); // 等待30秒
-                System.out.println(60-i+"秒后开始执行，请登录");
-            }
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+            Thread.sleep(1000); // 等待60秒
+            System.out.println(30 - i + "秒后开始执行，请登录");
         }
 
 
-        for (int i = 1; i <= 500; i++) {
+        //天眼查就250页
+        for (int i = 1; i <= 250; i++) {
 
-            String mainurl = "https://www.tianyancha.com/search?key="+key.replace(" ","+")+"&pageNum="+i;
+            String mainurl = "https://www.tianyancha.com/search?key=" + key.replace(" ", "+") + "&pageNum=" + i;
 
             // 打开网页
             driver.get(mainurl);
 
-            System.out.println(" 搜索"+mainurl);
+            System.out.println(" 搜索" + mainurl);
             // 等待一段时间（可选）
             try {
-                Thread.sleep(5 * 1000); // 等待30秒
+                Thread.sleep(7 * 1000); // 等待30秒
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
+            //7秒没取到页面的数据那在等5秒
+            String pageSource = "";
+            try {
+                pageSource = driver.getPageSource();
+            } catch (Exception e) {
+                Thread.sleep(5 * 1000); // 等待30秒
 
-            String pageSource = driver.getPageSource();
+                pageSource = driver.getPageSource();
+            }
+
+
             //用正则表达式获取网页地址
             List<String> extractedURLs = new ArrayList<>();
 
@@ -85,47 +94,70 @@ public class GetDataByQCC {
             Matcher matcher = pattern.matcher(pageSource);
 
             while (matcher.find()) {
-                String extractedURL = "https://www.tianyancha.com/company/" + matcher.group(1)+"/past" ;
+                String extractedURL = "https://www.tianyancha.com/company/" + matcher.group(1) + "/past";
                 extractedURLs.add(extractedURL);
+            }
+            if (extractedURLs.size() == 0) {
+                System.out.println("获取企业长度为0，请检查浏览器是否为无数据");
             }
             for (String url : extractedURLs) {
                 j++;
 //                System.out.println("查看公司详细：  "+url);
                 QYSource qySource = new QYSource();
                 driver.get(url);
+
+                Thread.sleep(4 * 1000); // 等待页面加载完成
+
+//                String h5text = driver.getPageSource();
+
+                //4秒没取到页面的数据那在等4秒
+                String h5text = "";
                 try {
-                    Thread.sleep(4 * 1000); // 等待页面加载完成
-                } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
+                    h5text = driver.getPageSource();
+                } catch (Exception e) {
+
+                    Thread.sleep(4 * 1000); // 等待30秒
+
+                    h5text = driver.getPageSource();
                 }
-                String h5text = driver.getPageSource();
+
+
                 //获取企业名称  --直接在标题里面取
                 String qymc = Jsoup.parse(h5text).title().replace("历史信息 - 天眼查", "");
                 // 学院、学校、大学、银行   直接过掉下一个
                 if (qymc.contains("学院") || qymc.contains("学校") || qymc.contains("大学") || qymc.contains("银行")) {
-                    System.out.println(qymc+"包含学院、学校、大学、银行 直接跳过");
+                    System.out.println(qymc + "包含学院、学校、大学、银行 直接跳过");
                     continue;
                 }
-
 
 
                 //获取历史高消费
-                String lsxzgxf = Other.getText(h5text,"历史限制消费令</span><span class=\"index_second-num__LkfmY index_num-warn__owjCq\">(\\d+\\+?)</span>").replace("+","");;
+                String lsxzgxf = Other.getText(h5text, "历史限制消费令</span><span class=\"index_second-num__LkfmY index_num-warn__owjCq\">(\\d+\\+?)</span>").replace("+", "");
+                ;
                 //获取被执行人
-                String lsbzxr  = Other.getText(h5text,"历史被执行人</span><span class=\"index_second-num__LkfmY index_num-warn__owjCq\">(\\d+\\+?)</span>").replace("+","");
-                String lssxbzxr  = Other.getText(h5text,"历史失信被执行人</span><span class=\"index_second-num__LkfmY index_num-warn__owjCq\">(\\d+\\+?)</span>").replace("+","");
+                String lsbzxr = Other.getText(h5text, "历史被执行人</span><span class=\"index_second-num__LkfmY index_num-warn__owjCq\">(\\d+\\+?)</span>").replace("+", "");
+                String lssxbzxr = Other.getText(h5text, "历史失信被执行人</span><span class=\"index_second-num__LkfmY index_num-warn__owjCq\">(\\d+\\+?)</span>").replace("+", "");
                 //限制高消费
-                String xzxfl  = Other.getText(h5text,">限制消费令</span><span class=\"index_second-num__LkfmY index_num-warn__owjCq\">(\\d+\\+?)</span>").replace("+","");
+                String xzxfl = Other.getText(h5text, ">限制消费令</span><span class=\"index_second-num__LkfmY index_num-warn__owjCq\">(\\d+\\+?)</span>").replace("+", "");
 
-                lsxzgxf="".equals(lsxzgxf) ? "0" : lsxzgxf;
-                lsbzxr="".equals(lsbzxr) ? "0" : lsbzxr;
-                lssxbzxr="".equals(lssxbzxr) ? "0" : lssxbzxr;
+
+                //如果历史被执行人为空那也不保存
+                if ("".equals(lsbzxr)) {
+                    System.out.println(url + "    历史被执行人为空,不符合，直接跳过");
+                    continue;
+                }
+
+
+                lsxzgxf = "".equals(lsxzgxf) ? "0" : lsxzgxf;
+                lsbzxr = "".equals(lsbzxr) ? "0" : lsbzxr;
+                lssxbzxr = "".equals(lssxbzxr) ? "0" : lssxbzxr;
 
                 //如果高消费为空那就继续，限制高消费的话直接下一个
                 if (!xzxfl.equals("")) {
-                    System.out.println(url+  "此企业被限制，直接跳过，次数"+xzxfl);
+                    System.out.println(url + "此企业被限制，直接跳过，次数" + xzxfl);
                     continue;
                 }
+
                 //电话号码
                 String photo = "";
                 try {
@@ -134,12 +166,11 @@ public class GetDataByQCC {
                     // 获取元素的文本内容
                     photo = element.getText();
                     if (!photo.equals("")) {
-                        photo=photo.substring(0, 1).equals("1") ? photo : "";
+                        photo = photo.substring(0, 1).equals("1") ? photo : "";
                     }
                 } catch (Exception e) {
                     System.out.println("获取号码异常");
                 }
-
 
 
                 String zjrq = "";
@@ -163,14 +194,14 @@ public class GetDataByQCC {
                 qySource.setZjlarq(zjrq);
                 qySource.setLsbzxr(lsbzxr);
                 qySource.setUrl(url);
-                qySource.setLsxzbgxf(lsxzgxf);
+                qySource.setLsxzgxf(lsxzgxf);
                 qySource.setLssxbzxr(lssxbzxr);
+                System.out.println(j + "  链接{" + url + "}\t    企业名称{" + qymc + "} \t    历史限制消费令{" + lsxzgxf + "}  \t 历史被执行人{" + lsbzxr + "}   历史失信被执行人{" + lssxbzxr + "}     \t 最近一次被执行日期{" + zjrq + "}   \t   电话号码{" + photo + "}");
                 if (service.existence(url) == 0) {
                     service.saveDate(qySource);
                 } else {
-                    System.out.println(url+"已存在数据库内，直接跳过");
+                    System.out.println(url + "已存在数据库内，直接跳过");
                 }
-                System.out.println(j+"  链接{"+url+"}\t    企业名称{"+qymc+"} \t    历史限制消费令{"+lsxzgxf+"}  \t 历史被执行人{"+lsbzxr+"}   历史失信被执行人{"+lssxbzxr+"}     \t 最近一次被执行日期{"+zjrq+"}   \t   电话号码{"+photo+"}");
 
 
             }
@@ -178,6 +209,9 @@ public class GetDataByQCC {
         }
 
 
-
     }
+
+
+
+
 }

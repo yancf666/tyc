@@ -13,4 +13,4 @@ create table qysource
     lsbzxr   int          null comment '历史被执行人',
     zjlarq   varchar(100) null comment '最近立案日期',
     photo    varchar(50)  null comment '电话号码'
-);
+) ;

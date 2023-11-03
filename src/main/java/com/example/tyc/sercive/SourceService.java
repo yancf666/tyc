@@ -15,11 +15,11 @@ public interface SourceService {
     List<QYSource> getqyData();
 
     //保存企业
-    @Insert("INSERT INTO qysource (url, qymc, lsxzbgxf, lsbzxr, zjlarq,photo,lssxbzxr) VALUES (#{url}, #{qymc}, #{lsxzbgxf}, #{lsbzxr}, #{zjlarq},#{photo},#{lssxbzxr})")
+    @Insert("INSERT INTO qysource (url, qymc, lsxzgxf, lsbzxr, zjlarq,photo,lssxbzxr) VALUES (#{url}, #{qymc}, #{lsxzgxf}, #{lsbzxr}, #{zjlarq},#{photo},#{lssxbzxr})")
     void saveDate(QYSource qySource);
 
     //判断企业是否存在
-    @Select("select count(*) from qysource where url = {url} ")
+    @Select("select count(*) from qysource where url = #{url} ")
     int existence(String url);
 
 
