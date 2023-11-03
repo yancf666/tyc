@@ -29,7 +29,7 @@ public class MailUtils {
         MimeMessageHelper helper = new MimeMessageHelper(mailMessage);
         try {
             helper.setFrom("yanchengfei666@163.com");
-            helper.setTo("cfyan@ipi-tech.com");
+            helper.setTo("619748460@qq.com");
             //helper.setBcc("密送人");
             helper.setSubject(title);
             helper.setSentDate(new Date());
@@ -49,7 +49,7 @@ public class MailUtils {
         String title = "异常提醒";
         try {
             helper.setFrom("yanchengfei666@163.com");
-            helper.setTo("cfyan@ipi-tech.com");
+            helper.setTo("619748460@qq.com");
             //helper.setBcc("密送人");
             helper.setSubject(title);
             helper.setSentDate(new Date());
@@ -68,7 +68,7 @@ public class MailUtils {
         String title = "成功提醒";
         try {
             helper.setFrom("yanchengfei666@163.com");
-            helper.setTo("cfyan@ipi-tech.com");
+            helper.setTo("619748460@qq.com");
             //helper.setBcc("密送人");
             helper.setSubject(title);
             helper.setSentDate(new Date());

@@ -15,7 +15,7 @@ public interface SourceService {
     List<QYSource> getqyData();
 
     //保存企业
-    @Insert("INSERT INTO qcc.qysource (url, qymc, lsxzbgxf, lsbzxr, zjlarq,photo,lssxbzxr) VALUES (#{url}, #{qymc}, #{lsxzbgxf}, #{lsbzxr}, #{zjlarq},#{photo},#{lssxbzxr})")
+    @Insert("INSERT INTO qysource (url, qymc, lsxzbgxf, lsbzxr, zjlarq,photo,lssxbzxr) VALUES (#{url}, #{qymc}, #{lsxzbgxf}, #{lsbzxr}, #{zjlarq},#{photo},#{lssxbzxr})")
     void saveDate(QYSource qySource);
 
     //判断企业是否存在
