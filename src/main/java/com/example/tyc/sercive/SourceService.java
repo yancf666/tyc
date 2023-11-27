@@ -11,11 +11,11 @@ import java.util.List;
 public interface SourceService {
 
     //获取所有企业
-    @Select("select * from qysource")
+    @Select("select * from qysource order by zjlarq desc")
     List<QYSource> getqyData();
 
     //保存企业
-    @Insert("INSERT INTO qysource (url, qymc, lsxzgxf, lsbzxr, zjlarq,photo,lssxbzxr) VALUES (#{url}, #{qymc}, #{lsxzgxf}, #{lsbzxr}, #{zjlarq},#{photo},#{lssxbzxr})")
+    @Insert("INSERT INTO qysource (url, qymc, lsxzgxf, lsbzxr, zjlarq,photo,lssxbzxr,zczj,sfjx,flss,lsflss,ktgg,lsktgg,laxx,lslaxx,lsxzcf,lshbcf,xzxfl) VALUES (#{url}, #{qymc}, #{lsxzgxf}, #{lsbzxr}, #{zjlarq},#{photo},#{lssxbzxr},#{zczj},#{sfjx},#{flss},#{lsflss},#{ktgg},#{lsktgg},#{laxx},#{lslaxx},#{lsxzcf},#{lshbcf},#{xzxfl})")
     void saveDate(QYSource qySource);
 
     //判断企业是否存在

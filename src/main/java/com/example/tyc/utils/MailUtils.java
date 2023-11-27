@@ -42,14 +42,14 @@ public class MailUtils {
         }
     }
 
-    public void sendErrMail(String context) {
+    public void sendErrMail(String context,String sendTo) {
         MimeMessage mailMessage = mailSender.createMimeMessage();
         //需要借助Helper类
         MimeMessageHelper helper = new MimeMessageHelper(mailMessage);
         String title = "异常提醒";
         try {
             helper.setFrom("yanchengfei666@163.com");
-            helper.setTo("cfyan@ipi-tech.com");
+            helper.setTo(sendTo);
             //helper.setBcc("密送人");
             helper.setSubject(title);
             helper.setSentDate(new Date());
