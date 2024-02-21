@@ -1,0 +1,145 @@
+2024-01-15 11:53:29.676 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 17.0.8 on DESKTOP-JHUP6CO with PID 57820 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-01-15 11:53:29.678 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-15 11:53:29.725 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-15 11:53:29.725 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-15 11:53:30.555 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-01-15 11:53:30.631 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 905 ms
+2024-01-15 11:53:31.190 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-01-15 11:53:31.224 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-01-15 11:53:31.235 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.892 seconds (JVM running for 2.7)
+2024-01-15 11:53:47.098 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 17.0.8 on DESKTOP-JHUP6CO with PID 21268 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-01-15 11:53:47.098 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-15 11:53:47.132 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-15 11:53:47.132 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-15 11:53:47.860 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-01-15 11:53:47.867 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-01-15 11:53:47.868 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-01-15 11:53:47.868 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-01-15 11:53:47.911 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-01-15 11:53:47.911 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 779 ms
+2024-01-15 11:53:48.400 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-01-15 11:53:48.413 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-01-15 11:53:48.426 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-01-15 11:53:48.434 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.609 seconds (JVM running for 2.034)
+2024-01-15 11:53:59.395 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 17.0.8 on DESKTOP-JHUP6CO with PID 59516 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-01-15 11:53:59.396 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-15 11:53:59.430 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-15 11:53:59.431 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-15 11:54:00.171 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-01-15 11:54:00.177 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-01-15 11:54:00.177 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-01-15 11:54:00.177 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-01-15 11:54:00.224 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-01-15 11:54:00.224 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 793 ms
+2024-01-15 11:54:00.586 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-01-15 11:54:00.735 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-01-15 11:54:00.749 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-01-15 11:54:00.761 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-01-15 11:54:00.769 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.67 seconds (JVM running for 2.097)
+2024-01-15 11:54:14.064 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 11:54:14.064 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-01-15 11:54:14.064 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-01-15 11:55:41.995 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 17.0.8 on DESKTOP-JHUP6CO with PID 57728 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-01-15 11:55:41.996 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-15 11:55:42.029 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-15 11:55:42.029 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-15 11:55:42.764 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-01-15 11:55:42.770 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-01-15 11:55:42.770 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-01-15 11:55:42.771 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-01-15 11:55:42.812 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-01-15 11:55:42.812 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 782 ms
+2024-01-15 11:55:43.189 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-01-15 11:55:43.319 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-01-15 11:55:43.332 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-01-15 11:55:43.344 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-01-15 11:55:43.353 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.626 seconds (JVM running for 2.029)
+2024-01-15 11:55:48.299 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 11:55:48.299 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-01-15 11:55:48.300 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-01-15 11:56:51.655 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 17.0.8 on DESKTOP-JHUP6CO with PID 21212 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-01-15 11:56:51.656 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-15 11:56:51.693 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-15 11:56:51.693 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-15 11:56:52.424 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-01-15 11:56:52.430 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-01-15 11:56:52.431 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-01-15 11:56:52.431 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-01-15 11:56:52.471 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-01-15 11:56:52.472 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 779 ms
+2024-01-15 11:56:52.846 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-01-15 11:56:52.965 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-01-15 11:56:52.978 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-01-15 11:56:52.990 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-01-15 11:56:52.998 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.603 seconds (JVM running for 1.993)
+2024-01-15 11:56:54.837 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 11:56:54.838 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-01-15 11:56:54.839 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-01-15 11:58:09.084 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 17.0.8 on DESKTOP-JHUP6CO with PID 31036 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-01-15 11:58:09.085 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-15 11:58:09.119 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-15 11:58:09.119 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-15 11:58:09.885 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-01-15 11:58:09.892 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-01-15 11:58:09.892 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-01-15 11:58:09.892 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-01-15 11:58:09.931 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-01-15 11:58:09.932 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 813 ms
+2024-01-15 11:58:10.318 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-01-15 11:58:10.452 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-01-15 11:58:10.466 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-01-15 11:58:10.478 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-01-15 11:58:10.486 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.664 seconds (JVM running for 2.057)
+2024-01-15 11:58:13.464 INFO  [http-nio-8099-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 11:58:13.464 INFO  [http-nio-8099-exec-2] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-01-15 11:58:13.465 INFO  [http-nio-8099-exec-2] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-01-15 11:58:30.529 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 17.0.8 on DESKTOP-JHUP6CO with PID 53864 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-01-15 11:58:30.530 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-15 11:58:30.570 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-15 11:58:30.570 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-15 11:58:31.368 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-01-15 11:58:31.374 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-01-15 11:58:31.375 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-01-15 11:58:31.375 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-01-15 11:58:31.418 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-01-15 11:58:31.418 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 847 ms
+2024-01-15 11:58:31.815 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-01-15 11:58:32.010 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-01-15 11:58:32.028 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-01-15 11:58:32.042 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-01-15 11:58:32.051 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.809 seconds (JVM running for 2.223)
+2024-01-15 11:58:33.296 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 11:58:33.296 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-01-15 11:58:33.297 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-01-15 12:01:25.170 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 17.0.8 on DESKTOP-JHUP6CO with PID 57260 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-01-15 12:01:25.172 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-15 12:01:25.233 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-15 12:01:25.234 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-15 12:01:26.611 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-01-15 12:01:26.618 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-01-15 12:01:26.619 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-01-15 12:01:26.619 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-01-15 12:01:26.666 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-01-15 12:01:26.666 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1432 ms
+2024-01-15 12:01:27.259 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-01-15 12:01:27.406 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-01-15 12:01:27.423 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-01-15 12:01:27.436 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-01-15 12:01:27.445 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 2.766 seconds (JVM running for 3.408)
+2024-01-15 12:01:27.531 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 12:01:27.532 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-01-15 12:01:27.532 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-01-15 13:57:34.898 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 17.0.8 on DESKTOP-JHUP6CO with PID 35728 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-01-15 13:57:34.899 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-15 13:57:34.932 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-15 13:57:34.932 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-15 13:57:35.629 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-01-15 13:57:35.634 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-01-15 13:57:35.634 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-01-15 13:57:35.635 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-01-15 13:57:35.675 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-01-15 13:57:35.675 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 743 ms
+2024-01-15 13:57:36.174 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-01-15 13:57:36.188 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-01-15 13:57:36.200 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-01-15 13:57:36.208 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.568 seconds (JVM running for 1.949)
