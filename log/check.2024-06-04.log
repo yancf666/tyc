@@ -1,0 +1,621 @@
+2024-06-04 15:39:38.243 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 28248 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 15:39:38.245 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 15:39:38.300 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 15:39:38.300 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 15:39:38.301 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 15:39:38.301 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 15:39:39.989 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 15:39:39.997 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 15:39:39.997 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 15:39:39.998 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 15:39:40.135 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 15:39:40.136 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1834 ms
+2024-06-04 15:39:40.589 WARN  [restartedMain] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'nohupOutFileReaderTask' defined in file [D:\Desktop\IPITools\target\classes\com\ipi\controler\NohupOutFileReaderTask.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.messaging.simp.SimpMessagingTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-06-04 15:39:40.591 INFO  [restartedMain] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-06-04 15:39:40.602 INFO  [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-06-04 15:39:40.626 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.ipi.controler.NohupOutFileReaderTask required a bean of type 'org.springframework.messaging.simp.SimpMessagingTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.messaging.simp.SimpMessagingTemplate' in your configuration.
+
+2024-06-04 15:43:54.259 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 3404 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 15:43:54.260 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 15:43:54.301 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 15:43:54.302 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 15:43:54.302 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 15:43:54.302 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 15:43:55.121 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 15:43:55.126 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 15:43:55.127 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 15:43:55.127 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 15:43:55.198 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 15:43:55.198 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 896 ms
+2024-06-04 15:43:55.469 WARN  [restartedMain] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'nohupOutFileReaderTask': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.messaging.simp.SimpMessagingTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2024-06-04 15:43:55.471 INFO  [restartedMain] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-06-04 15:43:55.477 INFO  [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-06-04 15:43:55.491 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'org.springframework.messaging.simp.SimpMessagingTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.messaging.simp.SimpMessagingTemplate' in your configuration.
+
+2024-06-04 16:02:21.081 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 27936 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 16:02:21.082 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 16:02:21.118 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 16:02:21.118 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 16:02:21.118 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 16:02:21.118 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 16:02:21.963 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 16:02:21.968 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:02:21.968 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 16:02:21.968 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 16:02:22.040 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 16:02:22.040 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 921 ms
+2024-06-04 16:02:22.565 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 16:02:22.578 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:02:22.588 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 16:02:22.598 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.788 seconds (JVM running for 2.594)
+2024-06-04 16:02:51.898 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 16:02:51.899 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 16:02:51.900 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 16:09:00.883 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 19220 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 16:09:00.884 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 16:09:00.917 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 16:09:00.917 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 16:09:00.917 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 16:09:00.917 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 16:09:01.728 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 16:09:01.734 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:09:01.735 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 16:09:01.735 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 16:09:01.807 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 16:09:01.807 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 889 ms
+2024-06-04 16:09:02.349 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 16:09:02.363 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:09:02.373 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 16:09:02.383 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.77 seconds (JVM running for 2.49)
+2024-06-04 16:09:07.517 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 16:09:07.517 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 16:09:07.518 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 16:10:11.633 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 1988 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 16:10:11.634 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 16:10:11.672 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 16:10:11.672 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 16:10:11.672 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 16:10:11.673 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 16:10:12.522 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 16:10:12.527 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:10:12.527 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 16:10:12.527 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 16:10:12.601 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 16:10:12.601 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 928 ms
+2024-06-04 16:10:13.134 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 16:10:13.149 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:10:13.160 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 16:10:13.170 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.814 seconds (JVM running for 2.518)
+2024-06-04 16:10:19.759 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 16:10:19.760 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 16:10:19.760 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-06-04 16:11:43.292 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 24184 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 16:11:43.294 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 16:11:43.325 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 16:11:43.325 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 16:11:43.325 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 16:11:43.325 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 16:11:44.106 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 16:11:44.111 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:11:44.111 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 16:11:44.112 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 16:11:44.184 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 16:11:44.185 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 859 ms
+2024-06-04 16:11:44.705 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 16:11:44.718 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:11:44.727 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 16:11:44.737 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.734 seconds (JVM running for 2.608)
+2024-06-04 16:11:53.257 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 16:11:53.257 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 16:11:53.258 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 16:20:06.831 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 20408 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 16:20:06.832 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 16:20:06.863 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 16:20:06.864 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 16:20:06.864 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 16:20:06.864 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 16:20:07.664 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 16:20:07.669 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:20:07.669 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 16:20:07.670 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 16:20:07.742 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 16:20:07.742 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 878 ms
+2024-06-04 16:20:08.261 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 16:20:08.275 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:20:08.285 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 16:20:08.295 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.735 seconds (JVM running for 2.494)
+2024-06-04 16:20:17.096 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 16:20:17.097 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 16:20:17.098 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 16:21:30.332 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 7536 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 16:21:30.333 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 16:21:30.367 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 16:21:30.367 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 16:21:30.367 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 16:21:30.368 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 16:21:31.284 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 16:21:31.289 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:21:31.290 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 16:21:31.290 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 16:21:31.365 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 16:21:31.366 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 998 ms
+2024-06-04 16:21:31.909 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 16:21:31.923 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:21:31.933 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 16:21:31.943 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.909 seconds (JVM running for 2.966)
+2024-06-04 16:21:35.063 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 16:21:35.063 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 16:21:35.064 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 16:25:17.350 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 28272 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 16:25:17.352 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 16:25:17.381 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 16:25:17.381 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 16:25:17.381 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 16:25:17.381 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 16:25:18.195 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 16:25:18.200 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:25:18.200 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 16:25:18.201 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 16:25:18.272 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 16:25:18.272 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 891 ms
+2024-06-04 16:25:18.795 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 16:25:18.808 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:25:18.818 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 16:25:18.828 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.751 seconds (JVM running for 2.488)
+2024-06-04 16:26:13.508 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 16:26:13.508 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 16:26:13.509 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 16:31:17.606 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 18064 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 16:31:17.607 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 16:31:17.640 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 16:31:17.640 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 16:31:17.640 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 16:31:17.640 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 16:31:18.520 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 16:31:18.526 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:31:18.526 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 16:31:18.526 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 16:31:18.603 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 16:31:18.604 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 963 ms
+2024-06-04 16:31:19.126 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 16:31:19.138 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:31:19.148 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 16:31:19.158 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.906 seconds (JVM running for 2.78)
+2024-06-04 16:31:30.171 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 16:31:30.172 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 16:31:30.173 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 16:34:31.088 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 11940 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 16:34:31.089 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 16:34:31.123 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 16:34:31.123 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 16:34:31.123 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 16:34:31.123 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 16:34:31.947 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 16:34:31.952 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:34:31.952 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 16:34:31.952 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 16:34:32.021 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 16:34:32.021 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 897 ms
+2024-06-04 16:34:32.524 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 16:34:32.538 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:34:32.549 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 16:34:32.557 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.752 seconds (JVM running for 2.472)
+2024-06-04 16:34:36.383 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 16:34:36.383 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 16:34:36.384 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 16:36:18.591 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 24040 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 16:36:18.592 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 16:36:18.626 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 16:36:18.626 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 16:36:18.626 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 16:36:18.626 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 16:36:19.571 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 16:36:19.576 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:36:19.577 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 16:36:19.577 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 16:36:19.672 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 16:36:19.673 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1046 ms
+2024-06-04 16:36:20.300 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 16:36:20.318 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:36:20.329 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 16:36:20.340 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 2.042 seconds (JVM running for 2.802)
+2024-06-04 16:36:38.880 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 16:36:38.880 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 16:36:38.881 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 16:37:33.439 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 1812 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 16:37:33.446 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 16:37:33.480 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 16:37:33.480 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 16:37:33.480 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 16:37:33.480 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 16:37:34.265 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 16:37:34.270 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:37:34.270 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 16:37:34.270 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 16:37:34.341 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 16:37:34.341 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 861 ms
+2024-06-04 16:37:34.846 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 16:37:34.859 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:37:34.868 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 16:37:34.878 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.702 seconds (JVM running for 2.404)
+2024-06-04 16:37:37.692 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 16:37:37.693 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 16:37:37.693 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-06-04 16:42:17.451 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 14144 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 16:42:17.453 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 16:42:17.491 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 16:42:17.491 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 16:42:17.492 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 16:42:17.492 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 16:42:18.337 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 16:42:18.343 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:42:18.343 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 16:42:18.343 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 16:42:18.430 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 16:42:18.430 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 938 ms
+2024-06-04 16:42:18.983 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 16:42:18.997 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:42:19.007 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 16:42:19.017 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.863 seconds (JVM running for 2.69)
+2024-06-04 16:42:21.275 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 16:42:21.275 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 16:42:21.276 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 16:46:04.771 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 20564 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 16:46:04.772 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 16:46:04.804 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 16:46:04.804 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 16:46:04.804 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 16:46:04.804 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 16:46:05.637 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 16:46:05.642 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:46:05.642 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 16:46:05.642 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 16:46:05.717 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 16:46:05.718 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 914 ms
+2024-06-04 16:46:06.251 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 16:46:06.264 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:46:06.275 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 16:46:06.285 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.804 seconds (JVM running for 2.749)
+2024-06-04 16:46:20.734 INFO  [http-nio-8099-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 16:46:20.734 INFO  [http-nio-8099-exec-2] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 16:46:20.735 INFO  [http-nio-8099-exec-2] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 16:47:32.803 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 14660 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 16:47:32.804 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 16:47:32.836 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 16:47:32.836 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 16:47:32.837 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 16:47:32.837 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 16:47:33.656 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 16:47:33.661 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:47:33.661 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 16:47:33.661 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 16:47:33.730 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 16:47:33.730 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 893 ms
+2024-06-04 16:47:34.239 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 16:47:34.252 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:47:34.262 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 16:47:34.272 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.755 seconds (JVM running for 2.548)
+2024-06-04 16:47:38.461 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 16:47:38.461 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 16:47:38.462 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 16:48:54.865 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 26412 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 16:48:54.866 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 16:48:54.900 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 16:48:54.900 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 16:48:54.900 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 16:48:54.900 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 16:48:55.714 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 16:48:55.719 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:48:55.719 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 16:48:55.720 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 16:48:55.795 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 16:48:55.795 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 895 ms
+2024-06-04 16:48:56.341 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 16:48:56.353 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 16:48:56.364 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 16:48:56.369 INFO  [restartedMain] org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-06-04 16:48:56.375 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.807 seconds (JVM running for 2.562)
+2024-06-04 17:21:01.923 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 26692 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 17:21:01.924 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 17:21:01.954 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 17:21:01.954 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 17:21:01.954 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 17:21:01.954 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 17:21:02.778 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 17:21:02.785 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:21:02.785 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 17:21:02.785 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 17:21:02.859 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 17:21:02.860 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 906 ms
+2024-06-04 17:21:03.394 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 17:21:03.406 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:21:03.416 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 17:21:03.421 INFO  [restartedMain] org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-06-04 17:21:03.426 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.794 seconds (JVM running for 2.815)
+2024-06-04 17:21:28.003 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 17:21:28.003 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 17:21:28.004 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 17:21:54.964 ERROR [http-nio-8099-exec-1] org.springframework.web.socket.handler.ExceptionWebSocketHandlerDecorator - Closing session due to exception for StandardWebSocketSession[id=6fe32e2b-8eef-cc13-2964-de419a7346aa, uri=ws://localhost:8099/log]
+java.util.ConcurrentModificationException: null
+	at java.util.ArrayDeque$DeqIterator.next(ArrayDeque.java:648)
+	at com.ipi.controler.LogToWebSocketHandler.sendLastLinesOfFileToClient(LogToWebSocketHandler.java:28)
+	at com.ipi.controler.LogToWebSocketHandler.afterConnectionEstablished(LogToWebSocketHandler.java:23)
+	at org.springframework.web.socket.handler.WebSocketHandlerDecorator.afterConnectionEstablished(WebSocketHandlerDecorator.java:70)
+	at org.springframework.web.socket.handler.LoggingWebSocketHandlerDecorator.afterConnectionEstablished(LoggingWebSocketHandlerDecorator.java:48)
+	at org.springframework.web.socket.handler.ExceptionWebSocketHandlerDecorator.afterConnectionEstablished(ExceptionWebSocketHandlerDecorator.java:48)
+	at org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter.onOpen(StandardWebSocketHandlerAdapter.java:104)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:136)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:936)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2024-06-04 17:24:35.530 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 27552 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 17:24:35.531 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 17:24:35.561 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 17:24:35.562 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 17:24:35.562 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 17:24:35.562 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 17:24:36.332 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 17:24:36.337 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:24:36.338 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 17:24:36.338 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 17:24:36.412 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 17:24:36.413 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 851 ms
+2024-06-04 17:24:36.951 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 17:24:36.962 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:24:36.972 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 17:24:36.977 INFO  [restartedMain] org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-06-04 17:24:36.983 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.726 seconds (JVM running for 2.51)
+2024-06-04 17:24:41.203 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 17:24:41.205 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 17:24:41.206 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 17:25:26.218 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 12844 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 17:25:26.219 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 17:25:26.249 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 17:25:26.249 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 17:25:26.249 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 17:25:26.249 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 17:25:27.064 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 17:25:27.069 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:25:27.070 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 17:25:27.070 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 17:25:27.146 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 17:25:27.147 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 897 ms
+2024-06-04 17:25:27.673 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 17:25:27.684 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:25:27.693 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 17:25:27.698 INFO  [restartedMain] org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-06-04 17:25:27.703 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.753 seconds (JVM running for 2.474)
+2024-06-04 17:25:46.439 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 17:25:46.439 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 17:25:46.440 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 17:36:04.265 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 26092 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 17:36:04.267 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 17:36:04.320 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 17:36:04.320 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 17:36:04.320 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 17:36:04.321 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 17:36:05.649 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 17:36:05.656 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:36:05.656 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 17:36:05.656 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 17:36:05.803 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 17:36:05.803 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1482 ms
+2024-06-04 17:36:06.718 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 17:36:06.739 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:36:06.755 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 17:36:06.764 INFO  [restartedMain] org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-06-04 17:36:06.772 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 3.013 seconds (JVM running for 4.413)
+2024-06-04 17:36:06.942 INFO  [http-nio-8099-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 17:36:06.942 INFO  [http-nio-8099-exec-2] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 17:36:06.943 INFO  [http-nio-8099-exec-2] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 17:37:12.730 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 25940 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 17:37:12.731 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 17:37:12.767 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 17:37:12.767 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 17:37:12.767 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 17:37:12.767 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 17:37:13.615 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 17:37:13.620 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:37:13.621 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 17:37:13.621 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 17:37:13.700 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 17:37:13.701 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 934 ms
+2024-06-04 17:37:14.263 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 17:37:14.275 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:37:14.286 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 17:37:14.291 INFO  [restartedMain] org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-06-04 17:37:14.297 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.849 seconds (JVM running for 2.588)
+2024-06-04 17:37:17.883 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 17:37:17.883 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 17:37:17.884 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 17:41:11.084 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 8400 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 17:41:11.085 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 17:41:11.124 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 17:41:11.124 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 17:41:11.124 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 17:41:11.124 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 17:41:11.978 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 17:41:11.983 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:41:11.984 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 17:41:11.984 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 17:41:12.061 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 17:41:12.061 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 937 ms
+2024-06-04 17:41:12.761 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 17:41:12.773 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:41:12.784 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 17:41:12.789 INFO  [restartedMain] org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-06-04 17:41:12.794 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 2.01 seconds (JVM running for 2.933)
+2024-06-04 17:41:30.342 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 17:41:30.343 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 17:41:30.344 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 17:42:30.212 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 25720 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 17:42:30.213 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 17:42:30.247 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 17:42:30.247 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 17:42:30.247 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 17:42:30.247 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 17:42:31.032 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 17:42:31.037 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:42:31.038 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 17:42:31.038 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 17:42:31.107 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 17:42:31.107 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 859 ms
+2024-06-04 17:42:31.621 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 17:42:31.632 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:42:31.642 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 17:42:31.647 INFO  [restartedMain] org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-06-04 17:42:31.652 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.708 seconds (JVM running for 2.421)
+2024-06-04 17:42:39.046 INFO  [http-nio-8099-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 17:42:39.046 INFO  [http-nio-8099-exec-2] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 17:42:39.047 INFO  [http-nio-8099-exec-2] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 17:43:26.627 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 6208 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 17:43:26.628 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 17:43:26.663 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 17:43:26.663 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 17:43:26.664 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 17:43:26.664 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 17:43:27.558 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 17:43:27.564 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:43:27.565 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 17:43:27.565 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 17:43:27.651 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 17:43:27.651 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 987 ms
+2024-06-04 17:43:28.222 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 17:43:28.233 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:43:28.243 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 17:43:28.248 INFO  [restartedMain] org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-06-04 17:43:28.254 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.931 seconds (JVM running for 3.07)
+2024-06-04 17:43:44.537 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 17:43:44.537 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 17:43:44.538 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 17:44:54.727 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 11528 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 17:44:54.728 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 17:44:54.763 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 17:44:54.763 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 17:44:54.763 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 17:44:54.763 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 17:44:55.668 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 17:44:55.673 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:44:55.674 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 17:44:55.674 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 17:44:55.750 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 17:44:55.750 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 986 ms
+2024-06-04 17:44:56.358 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 17:44:56.371 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:44:56.382 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 17:44:56.388 INFO  [restartedMain] org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-06-04 17:44:56.394 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.95 seconds (JVM running for 2.802)
+2024-06-04 17:44:59.360 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 17:44:59.361 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 17:44:59.362 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 17:45:28.476 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 25972 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 17:45:28.477 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 17:45:28.522 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 17:45:28.522 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 17:45:28.523 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 17:45:28.523 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 17:45:29.322 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 17:45:29.328 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:45:29.328 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 17:45:29.328 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 17:45:29.400 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 17:45:29.400 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 877 ms
+2024-06-04 17:45:29.921 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 17:45:29.932 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:45:29.941 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 17:45:29.946 INFO  [restartedMain] org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-06-04 17:45:29.952 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.744 seconds (JVM running for 2.453)
+2024-06-04 17:45:35.433 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 17:45:35.433 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 17:45:35.434 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 17:47:09.145 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 27216 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 17:47:09.146 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 17:47:09.193 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 17:47:09.194 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 17:47:09.194 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 17:47:09.194 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 17:47:10.507 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 17:47:10.515 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:47:10.516 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 17:47:10.516 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 17:47:10.653 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 17:47:10.653 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1458 ms
+2024-06-04 17:47:11.548 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 17:47:11.568 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:47:11.584 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 17:47:11.592 INFO  [restartedMain] org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-06-04 17:47:11.600 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 2.942 seconds (JVM running for 4.128)
+2024-06-04 17:47:11.818 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 17:47:11.818 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 17:47:11.819 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 17:48:03.452 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 9460 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 17:48:03.454 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 17:48:03.517 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 17:48:03.517 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 17:48:03.517 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 17:48:03.518 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 17:48:04.892 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 17:48:04.900 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:48:04.901 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 17:48:04.901 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 17:48:05.043 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 17:48:05.043 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1525 ms
+2024-06-04 17:48:05.954 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 17:48:05.976 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:48:05.993 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 17:48:06.001 INFO  [restartedMain] org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-06-04 17:48:06.010 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 3.051 seconds (JVM running for 4.335)
+2024-06-04 17:48:06.189 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04 17:48:06.189 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-04 17:48:06.190 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-04 17:48:29.510 INFO  [restartedMain] com.ipi.DemoApplication - Starting DemoApplication using Java 1.8.0_241 on DESKTOP-JHUP6CO with PID 20632 (D:\Desktop\IPITools\target\classes started by IPI in D:\Desktop\tyc)
+2024-06-04 17:48:29.511 INFO  [restartedMain] com.ipi.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-04 17:48:29.542 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2024-06-04 17:48:29.542 INFO  [restartedMain] org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2024-06-04 17:48:29.542 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-04 17:48:29.543 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-04 17:48:30.367 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2024-06-04 17:48:30.372 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:48:30.372 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-04 17:48:30.372 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-04 17:48:30.445 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-04 17:48:30.445 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 902 ms
+2024-06-04 17:48:30.971 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-06-04 17:48:30.982 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-06-04 17:48:30.994 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+2024-06-04 17:48:30.999 INFO  [restartedMain] org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-06-04 17:48:31.006 INFO  [restartedMain] com.ipi.DemoApplication - Started DemoApplication in 1.782 seconds (JVM running for 2.587)
